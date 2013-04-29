@@ -22,3 +22,17 @@ parser.parse(text)
  - Python packaging (PYPI)
  - Tests
  - Get Rid of requests ?
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## Thanks
+
+Thank you for [Ginger Proofreader](http://www.gingersoftware.com/) for such awesome service. Hope they will keep it free :)
+
+Thanks to @subosito for this inspriration https://github.com/subosito/gingerice
