@@ -35,4 +35,4 @@ parser.parse(text)
 
 Thank you for [Ginger Proofreader](http://www.gingersoftware.com/) for such awesome service. Hope they will keep it free :)
 
-Thanks to @subosito for this inspriration https://github.com/subosito/gingerice
+Thanks to @subosito for this inspriration https://github.com/subosito/gingerice (Ruby Gem)
