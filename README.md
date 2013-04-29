@@ -18,7 +18,6 @@ parser.parse(text)
 
 ## TODO:
 
- - Parsing needs some little fixes
  - Python packaging (PYPI)
  - Tests
  - Get Rid of requests ?
