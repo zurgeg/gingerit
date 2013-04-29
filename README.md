@@ -9,3 +9,4 @@ TODO:
  - I'm still working on the parsing. 
  - Python packaging (PYPI)
  - Tests
+ - Get Rid of requests ?
