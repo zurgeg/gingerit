@@ -18,7 +18,7 @@ parser.parse(text)
 
 ## TODO:
 
- - I'm still working on the parsing. 
+ - Parsing needs some little fixes
  - Python packaging (PYPI)
  - Tests
  - Get Rid of requests ?
