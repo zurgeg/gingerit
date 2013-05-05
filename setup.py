@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='gingerit',
-    version='0.5.0',
+    version='0.5.1',
     author='Tim Kleinschmidt',
     author_email='tim.kleinschmidt@gmail.com',
     packages=find_packages(),
