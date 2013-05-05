@@ -3,11 +3,18 @@ gingerit
 
 Python wrapper for correcting spelling and grammar mistakes based on the context of complete sentences.
 
+Installation:
+-------------
+
+.. code:: python
+    pip install gingerit
+
 
 Usage:
 ------
 
-    from gingerit import GingerIt
+.. code:: python
+    from gingerit.sgingerit import GingerIt
 
     text = 'The smelt of fliwers bring back memories.'
 
