@@ -4,25 +4,25 @@ gingerit
 Python wrapper for correcting spelling and grammar mistakes based on the context of complete sentences.
 
 
-## Usage
+Usage:
+------
 
-```python
-from gingerit import GingerIt
+    from gingerit import GingerIt
 
-text = 'The smelt of fliwers bring back memories.'
+    text = 'The smelt of fliwers bring back memories.'
 
-parser = GingerIt()
-parser.parse(text)
+    parser = GingerIt()
+    parser.parse(text)
 
-```
-
-## TODO:
+TODO:
+-----
 
  - Python packaging (PYPI)
  - Tests
  - Get Rid of requests ?
 
-## Contributing
+Contributing:
+-------------
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
@@ -30,7 +30,8 @@ parser.parse(text)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-## Thanks
+Thanks
+------
 
 Thank you for [Ginger Proofreader](http://www.gingersoftware.com/) for such awesome service. Hope they will keep it free :)
 
