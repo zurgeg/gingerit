@@ -6,14 +6,17 @@ Python wrapper for correcting spelling and grammar mistakes based on the context
 Installation:
 -------------
 
-.. code:: python
+
+::
+    
     pip install gingerit
 
 
 Usage:
 ------
 
-.. code:: python
+::
+
     from gingerit.sgingerit import GingerIt
 
     text = 'The smelt of fliwers bring back memories.'
@@ -24,7 +27,6 @@ Usage:
 TODO:
 -----
 
- - Python packaging (PYPI)
  - Tests
  - Get Rid of requests ?
 
