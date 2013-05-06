@@ -28,6 +28,7 @@ TODO:
 -----
 
  - Tests
+ - Commandline Tool
  - Get Rid of requests ?
 
 Contributing:
