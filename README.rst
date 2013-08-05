@@ -20,7 +20,7 @@ Usage:
 
 ::
 
-    from gingerit.sgingerit import GingerIt
+    from gingerit.gingerit import GingerIt
 
     text = 'The smelt of fliwers bring back memories.'
 
