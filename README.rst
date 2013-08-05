@@ -2,7 +2,15 @@ gingerit
 ========
 
 .. image:: https://pypip.in/v/gingerit/badge.png
-  :target: https://pypi.python.org/pypi/gingerit
+    :target: https://pypi.python.org/pypi/gingerit
+
+
+.. image:: https://coveralls.io/repos/Azd325/gingerit/badge.png?branch=master
+    :target: https://coveralls.io/r/Azd325/gingerit?branch=master
+
+.. image:: https://travis-ci.org/Azd325/gingerit.png?branch=master
+    :target: https://travis-ci.org/Azd325/gingerit
+
 
 Python wrapper for correcting spelling and grammar mistakes based on the context of complete sentences.
 
@@ -11,7 +19,7 @@ Installation:
 
 
 ::
-    
+
     pip install gingerit
 
 
