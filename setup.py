@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 with open('README.rst') as file:
     long_description = file.read()
 
-with open('requirements.txt') as f:
-    requirements = f.read().splitlines()
+with open('requirements.txt') as file:
+    requirements = file.read().splitlines()
 
 setup(
     name='gingerit',
