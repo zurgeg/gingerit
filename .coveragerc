@@ -1,5 +1,5 @@
 [run]
-include = gingerit/test.py
+include = gingerit/*
 
 [report]
 # Regexes for lines to exclude from consideration
