@@ -28,37 +28,63 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+          <h1>
+<a name="gingerit" class="anchor" href="#gingerit"><span class="octicon octicon-link"></span></a>gingerit</h1>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>.. image:: <a href="https://pypip.in/v/gingerit/badge.png">https://pypip.in/v/gingerit/badge.png</a>
+    :target: <a href="https://pypi.python.org/pypi/gingerit">https://pypi.python.org/pypi/gingerit</a></p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<p>.. image:: <a href="https://coveralls.io/repos/Azd325/gingerit/badge.png?branch=master">https://coveralls.io/repos/Azd325/gingerit/badge.png?branch=master</a>
+    :target: <a href="https://coveralls.io/r/Azd325/gingerit?branch=master">https://coveralls.io/r/Azd325/gingerit?branch=master</a></p>
+
+<p>.. image:: <a href="https://travis-ci.org/Azd325/gingerit.png?branch=master">https://travis-ci.org/Azd325/gingerit.png?branch=master</a>
+    :target: <a href="https://travis-ci.org/Azd325/gingerit">https://travis-ci.org/Azd325/gingerit</a></p>
+
+<p>Python wrapper for correcting spelling and grammar mistakes based on the context of complete sentences.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation:</h2>
+
+<p>::</p>
+
+<pre><code>pip install gingerit
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage:</h2>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p>::</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<pre><code>from gingerit.gingerit import GingerIt
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+text = 'The smelt of fliwers bring back memories.'
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+parser = GingerIt()
+parser.parse(text)
+</code></pre>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<h2>
+<a name="todo" class="anchor" href="#todo"><span class="octicon octicon-link"></span></a>TODO:</h2>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<ul>
+<li>Tests</li>
+<li>Commandline Tool</li>
+<li>Get Rid of requests ?</li>
+</ul><h2>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing:</h2>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<ol>
+<li>Fork it</li>
+<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>
+<li>Commit your changes (<code>git commit -am 'Add some feature'</code>)</li>
+<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>
+<li>Create new Pull Request</li>
+</ol><h2>
+<a name="thanks" class="anchor" href="#thanks"><span class="octicon octicon-link"></span></a>Thanks</h2>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>Thank you for <a href="http://www.gingersoftware.com/">Ginger Proofreader</a> for such awesome service. Hope they will keep it free :)</p>
+
+<p>Thanks to <a href="https://github.com/subosito" class="user-mention">@subosito</a> for this inspriration <a href="https://github.com/subosito/gingerice">https://github.com/subosito/gingerice</a> (Ruby Gem)</p>
         </section>
 
         <aside id="sidebar">
