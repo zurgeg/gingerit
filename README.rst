@@ -17,11 +17,9 @@ Python wrapper for correcting spelling and grammar mistakes based on the context
 Installation:
 -------------
 
-
 ::
 
     pip install gingerit
-
 
 Usage:
 ------
@@ -38,9 +36,8 @@ Usage:
 TODO:
 -----
 
- - Tests
+ - More tests
  - Commandline Tool
- - Get Rid of requests ?
 
 Contributing:
 -------------
