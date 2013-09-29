@@ -1,7 +1,7 @@
 import requests
 
 
-class GingerIt:
+class GingerIt(object):
     def __init__(self):
         self.url = 'http://services.gingersoftware.com/Ginger/correct/json/GingerTheText'
         self.api_key = '6ae0c3a0-afdc-4532-a810-82ded0054236'
@@ -20,9 +20,10 @@ class GingerIt:
             },
         )
         data = req.json()
-        return self.process_data(text, data)
+        return self._process_data(text, data)
 
-    def process_data(self, text, data):
+    @staticmethod
+    def _process_data(text, data):
         result = ''
         corrections = []
         i = 0
