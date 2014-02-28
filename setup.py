@@ -11,7 +11,7 @@ setup(
     version='0.5.3',
     author='Tim Kleinschmidt',
     author_email='tim.kleinschmidt@gmail.com',
-    packages=find_packages(),
+    packages=find_packages(exclude=["tests", "tests.*"]),
     url='https://github.com/Azd325/gingerit',
     license='BSD',
     description='Correcting spelling and grammar mistakes based on the context of complete sentences. Wrapper around the gingersoftware.com API',
@@ -23,5 +23,5 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
     ],
-    install_requires=requirements
+    install_requires=requirements,
 )
