@@ -14,7 +14,7 @@ description = """
 
 setup(
     name='gingerit',
-    version='0.5.3',
+    version='0.5.4',
     author='Tim Kleinschmidt',
     author_email='tim.kleinschmidt@gmail.com',
     packages=find_packages(exclude=["tests", "tests.*"]),
