@@ -6,9 +6,6 @@ with open('README.rst') as file:
 with open('requirements.txt') as file:
     requirements = file.read().splitlines()
 
-with open('requirements-test.txt') as file:
-    test_requirements = file.read().splitlines()
-
 
 description = """
     Correcting spelling and grammar mistakes based on the context of
@@ -34,5 +31,4 @@ setup(
     ],
     install_requires=requirements,
     setup_requires=requirements,
-    tests_require=test_requirements,
 )
