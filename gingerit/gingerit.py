@@ -1,10 +1,14 @@
 import requests
 
 
+URL = 'http://services.gingersoftware.com/Ginger/correct/json/GingerTheText'
+API_KEY = '6ae0c3a0-afdc-4532-a810-82ded0054236'
+
+
 class GingerIt(object):
     def __init__(self):
-        self.url = 'http://services.gingersoftware.com/Ginger/correct/json/GingerTheText'
-        self.api_key = '6ae0c3a0-afdc-4532-a810-82ded0054236'
+        self.url = URL
+        self.api_key = API_KEY
         self.api_version = '2.0'
         self.lang = 'US'
 
