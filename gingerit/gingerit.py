@@ -1,10 +1,14 @@
 import requests
 
 
+URL = 'http://services.gingersoftware.com/Ginger/correct/json/GingerTheText'
+API_KEY = '6ae0c3a0-afdc-4532-a810-82ded0054236'
+
+
 class GingerIt(object):
     def __init__(self):
-        self.url = 'http://services.gingersoftware.com/Ginger/correct/json/GingerTheText'
-        self.api_key = '6ae0c3a0-afdc-4532-a810-82ded0054236'
+        self.url = URL
+        self.api_key = API_KEY
         self.api_version = '2.0'
         self.lang = 'US'
 
@@ -33,14 +37,15 @@ class GingerIt(object):
             end = suggestion["To"]
 
             if i <= end:
+                suggest = suggestion['Suggestions'][0]
                 if start != 0:
                     result += text[i:start-1]
-                result += " " + suggestion['Suggestions'][0]['Text']
+                result += " " + suggest['Text']
 
                 corrections.append({
                     'text': text[start:end],
-                    'correct': suggestion['Suggestions'][0].get('Text', None),
-                    'definition': suggestion['Suggestions'][0].get('Definition', None)
+                    'correct': suggest.get('Text', None),
+                    'definition': suggest.get('Definition', None)
                 })
 
             i = end + 1

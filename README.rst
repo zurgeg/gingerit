@@ -4,6 +4,10 @@ gingerit
 .. image:: https://pypip.in/v/gingerit/badge.png
     :target: https://pypi.python.org/pypi/gingerit
 
+.. image:: https://landscape.io/github/Azd325/gingerit/master/landscape.png
+    :target: https://landscape.io/github/Azd325/gingerit/master
+    :alt: Code Health
+
 
 .. image:: https://coveralls.io/repos/Azd325/gingerit/badge.png?branch=master
     :target: https://coveralls.io/r/Azd325/gingerit?branch=master
