@@ -3,7 +3,7 @@ sudo: false
 deploy:
   true:
     condition: $TOXENV == py27
-    repo: azd325/gingerit
+    repo: Azd325/gingerit
     tags: true
   distributions: sdist bdist_wheel
   password:
