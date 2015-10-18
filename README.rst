@@ -2,8 +2,8 @@
 Gingerit
 ===============================
 
-.. image:: https://img.shields.io/travis/azd325/gingerit.svg
-        :target: https://travis-ci.org/azd325/gingerit
+.. image:: https://img.shields.io/travis/Azd325/gingerit.svg
+        :target: https://travis-ci.org/Azd325/gingerit
 
 .. image:: https://img.shields.io/pypi/v/gingerit.svg
         :target: https://pypi.python.org/pypi/gingerit
