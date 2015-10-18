@@ -6,7 +6,6 @@
 # Packages
 *.egg
 *.egg-info
-.eggs/
 dist
 build
 eggs
@@ -26,6 +25,7 @@ pip-log.txt
 .coverage
 .tox
 nosetests.xml
+htmlcov
 
 # Translations
 *.mo
@@ -35,4 +35,13 @@ nosetests.xml
 .project
 .pydevproject
 
-.idea
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+
+
+.idea/
+.eggs/
