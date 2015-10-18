@@ -11,11 +11,11 @@ deploy:
   provider: pypi
   user: azd325
 env:
-- TOXENV=py35
-- TOXENV=py34
-- TOXENV=py33
-- TOXENV=py27
-- TOXENV=pypy
+  matrix:
+    - TOXENV=py27
+    - TOXENV=py32
+    - TOXENV=py33
+    - TOXENV=py34
 install: pip install -U tox
 language: python
 script: tox
