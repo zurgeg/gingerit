@@ -6,4 +6,4 @@ History
 0.5.5 (2015-01-11)
 ---------------------
 
-* First release on PyPI.
+* Updates requirements and python package
