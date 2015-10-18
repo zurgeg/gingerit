@@ -1,5 +1,5 @@
 import unittest
-from ..gingerit import GingerIt
+from gingerit.gingerit import GingerIt
 
 
 class TestGingerIt(unittest.TestCase):
