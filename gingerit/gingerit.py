@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import requests
 
-
 URL = 'http://services.gingersoftware.com/Ginger/correct/json/GingerTheText'
 API_KEY = '6ae0c3a0-afdc-4532-a810-82ded0054236'
 
