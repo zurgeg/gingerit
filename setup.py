@@ -24,7 +24,7 @@ test_requirements = [
 
 setup(
     name='gingerit',
-    version='0.5.8',
+    version='0.6.0',
     long_description="Correcting spelling and grammar mistakes based on the context of complete sentences. Wrapper around the gingersoftware.com API",
     author='Tim Kleinschmidt',
     author_email='tim.kleinschmidt@gmail.com',
