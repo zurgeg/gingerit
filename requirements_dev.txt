@@ -14,11 +14,10 @@ codecov==1.5.1
 coverage==3.7.1
 cryptography==1.0.2
 docutils==0.12            # via sphinx
-enum34==1.0.4             # via cryptography
 first==2.0.1              # via pip-tools
 flake8==2.4.1
 idna==2.0                 # via cryptography
-ipaddress==1.0.14         # via cryptography
+isort==4.2.2
 jinja2==2.8               # via sphinx
 markupsafe==0.23          # via jinja2
 mccabe==0.3.1             # via flake8

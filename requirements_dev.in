@@ -12,3 +12,4 @@ python-coveralls
 codecov
 
 pip-tools
+isort
