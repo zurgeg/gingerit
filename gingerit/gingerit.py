@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import requests
 
-URL = 'http://services.gingersoftware.com/Ginger/correct/json/GingerTheText'
+URL = 'https://services.gingersoftware.com/Ginger/correct/jsonSecured/GingerTheTextFull'  # noqa
 API_KEY = '6ae0c3a0-afdc-4532-a810-82ded0054236'
 
 
@@ -13,8 +13,8 @@ class GingerIt(object):
         self.lang = 'US'
 
     def parse(self, text):
-        s = requests.Session()
-        req = s.get(
+        session = requests.Session()
+        request = session.get(
             self.url,
             params={
                 'lang': self.lang,
@@ -23,7 +23,7 @@ class GingerIt(object):
                 'text': text
             },
         )
-        data = req.json()
+        data = request.json()
         return self._process_data(text, data)
 
     @staticmethod
@@ -32,7 +32,7 @@ class GingerIt(object):
         corrections = []
         i = 0
 
-        for suggestion in data['LightGingerTheTextResult']:
+        for suggestion in data['Corrections']:
             start = suggestion["From"]
             end = suggestion["To"]
 
