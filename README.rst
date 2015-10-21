@@ -11,7 +11,7 @@ Gingerit
 
 Correcting spelling and grammar mistakes based on the context of complete sentences. Wrapper around the gingersoftware.com API
 
-* Free software: ISC license
+* Free software: MIT license
 * Documentation: https://gingerit.readthedocs.org.
 
 Installation:
