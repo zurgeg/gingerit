@@ -1,17 +1,18 @@
-import unittest
+import pytest
 
 from gingerit.gingerit import GingerIt
 
 
-class TestGingerIt(unittest.TestCase):
-    def test(self):
-        text = 'The smelt of fliwers bring back memories.'
-
-        parser = GingerIt()
-        output = parser.parse(text)
-        self.assertEqual(
-            output.get("result"), "The smell of flowers brings back memories"
-        )
-
-if __name__ == '__main__':
-    unittest.main()
+@pytest.mark.parametrize("text,expected", [
+    (
+        "The smelt of fliwers bring back memories.",
+        "The smell of flowers brings back memories."
+    ),
+    (
+        "Edwards will be sck yesterday",
+        "Edwards was sick yesterday"
+    )
+])
+def test_gingerit(text, expected):
+    parser = GingerIt()
+    assert parser.parse(text)["result"] == expected
