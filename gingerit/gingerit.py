@@ -27,12 +27,12 @@ class GingerIt(object):
         return self._process_data(text, data)
 
     @staticmethod
-    def change_char(original_text, from_position, to_position, change_with):
-        return original_text[:from_position] + change_with + original_text[to_position + 1:]
+    def _change_char(original_text, from_position, to_position, change_with):
+        return "{}{}{}".format(original_text[:from_position],
+                               change_with,
+                               original_text[to_position + 1:])
 
-
-    @staticmethod
-    def _process_data(text, data):
+    def _process_data(self, text, data):
         result = text
         corrections = []
 
@@ -42,11 +42,12 @@ class GingerIt(object):
 
             if suggestion['Suggestions']:
                 suggest = suggestion['Suggestions'][0]
-                result = GingerIt.change_char(result, start, end, suggest['Text'])
+                result = self._change_char(result, start, end, suggest['Text'])
 
                 corrections.append({
                     'text': text[start:end],
                     'correct': suggest.get('Text', None),
                     'definition': suggest.get('Definition', None)
                 })
+
         return {'text': text, 'result': result, 'corrections': corrections}

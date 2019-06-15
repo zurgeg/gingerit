@@ -11,6 +11,14 @@ from gingerit.gingerit import GingerIt
     (
         "Edwards will be sck yesterday",
         "Edwards was sick yesterday"
+    ),
+    (
+        "Edwards was sick yesterday.",
+        "Edwards was sick yesterday."
+    ),
+    (
+        "",
+        ""
     )
 ])
 def test_gingerit(text, expected):
