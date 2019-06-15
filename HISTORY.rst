@@ -3,6 +3,13 @@
 History
 -------
 
+0.7 (2019-06-15)
+---------------------
+
+* Fix bug with space between last punctuation
+* Update package structure
+* Use pytest for testing
+
 0.6 (2015-10-20)
 ---------------------
 
