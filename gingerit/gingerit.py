@@ -45,7 +45,8 @@ class GingerIt(object):
                 result = self._change_char(result, start, end, suggest['Text'])
 
                 corrections.append({
-                    'text': text[start:end],
+                    'start':start,
+                    'text': text[start:end+1],
                     'correct': suggest.get('Text', None),
                     'definition': suggest.get('Definition', None)
                 })
