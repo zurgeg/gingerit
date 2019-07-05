@@ -18,7 +18,7 @@ classifiers = [
 
 
 [tool.poetry.dependencies]
-python = "*"
+python = "^3.6"
 requests = "^2.22"
 
 [tool.poetry.dev-dependencies]
