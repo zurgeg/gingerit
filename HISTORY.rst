@@ -3,6 +3,13 @@
 History
 -------
 
+0.8 (2019-07-05)
+---------------------
+
+* Fix bug inside the corrections output
+* Drop python 2 support
+
+
 0.7 (2019-06-15)
 ---------------------
 
