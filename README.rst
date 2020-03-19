@@ -46,6 +46,6 @@ TODO:
 Thanks
 ------
 
-Thank you for [Ginger Proofreader](http://www.gingersoftware.com/) for such awesome service. Hope they will keep it free :)
+Thank you for  `Ginger Proofreader <http://www.gingersoftware.com/>`_ for such awesome service. Hope they will keep it free :)
 
-Thanks to @subosito for this inspriration https://github.com/subosito/gingerice (Ruby Gem)
+Thanks to @subosito for this inspriration `Gingerice <https://github.com/subosito/gingerice>`_
